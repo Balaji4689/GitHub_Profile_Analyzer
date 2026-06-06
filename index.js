@@ -14,7 +14,7 @@ mongoose
   .then(() => { console.log("MongoDB Connected Successfully");})
   .catch((error) => { console.log("MongoDB Connection Error:", error); });
 
-app.get("/get", (req, res) => {
+app.get("/", (req, res) => {
   res.send("GitHub Profile Analyzer API Running");
 });
 
